@@ -1,0 +1,38 @@
+/* src/components/RegisterForm.css */
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  margin-top: 40px;
+  text-align: center;
+}
+
+input,
+select,
+button {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #256cb7;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #38a;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}

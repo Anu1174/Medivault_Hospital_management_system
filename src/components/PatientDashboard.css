@@ -1,0 +1,87 @@
+.dashboard-container {
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #d1e7dd;
+  border-bottom: 2px solid #ccc;
+}
+
+.center-header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  flex: 1; /* takes full width between logo and buttons */
+}
+
+.center-header h2 {
+  margin: 0;
+}
+
+.slogan {
+  font-style: italic;
+  color: #555;
+  margin-top: 4px;
+  font-size: 28px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.profile-popup {
+  background: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #aaa;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.dashboard-main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card button {
+  padding: 10px 15px;
+  background-color: #198754;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

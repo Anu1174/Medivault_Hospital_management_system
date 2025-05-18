@@ -1,0 +1,72 @@
+/* src/components/RoleSelection.css */
+
+.role-selection-container {
+  padding: 30px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+}
+
+.site-title {
+  font-size: 2.5rem;
+  color: #007BFF;
+  margin: 0;
+}
+
+.welcome-text {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.role-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 30px;
+}
+
+.role-card {
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.role-card:hover {
+  transform: scale(1.05);
+  display: flex;
+  cursor: pointer;
+}
+
+.role-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.role-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.role-button:hover {
+  background-color: #0056b3;
+}
+
