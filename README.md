@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Medivault-Redifining-Hospital-Management-System
+A web-based Hospital Management System built using React for the frontend and MySQL for the backend. The system includes separate login and dashboard modules for doctors and patients, secure patient history sharing with doctor consent, CAPTCHA verification, and medical record management.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1.Front-end:
+Tools: React, HTML, CSS
+Key Principles: Component-based UI, role-based rendering, navigation with React Router, form validation
+Methods: Creating reusable React components, managing routes and user roles, validating user input on forms
 
-## Available Scripts
+2.Back-end:
+Tools: Flask (Python)
+Key Principles: RESTful API design, session management, file upload handling, user authentication, unique ID generation
+Methods: Building API endpoints, managing user sessions, handling file uploads securely with werkzeug, generating unique user IDs
 
-In the project directory, you can run:
+3.Database:
+Tools: MySQL, MySQL Command Line Client
+Key Principles: Relational database design, data normalization, secure CRUD operations
+Methods: Designing normalized tables, implementing SQL queries for data operations, enforcing foreign key constraints
 
-### `npm start`
+4.API Testing:
+Tools: Postman
+Key Principles: API endpoint verification, request/response validation
+Methods: Manual testing of APIs, debugging and refining endpoints
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5.SMS Notifications:
+Tools: Fast2SMS API
+Key Principles: OTP generation, SMS-based notifications
+Methods: Integrating SMS gateway API for sending OTPs and alerts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6.Development & Deployment:
+Tools: Visual Studio Code, Git, Localhost environment
+Key Principles: Version control, local testing and debugging
+Methods: Using Git for code management, debugging with VS Code, deploying locally for testing
 
-### `npm test`
+7.AI & Analytics:
+Tools: Python scripts within Flask
+Key Principles: Role-based access control, consent tracking, personalized data visualization
+Methods: Implementing access logic, tracking patient consent, generating dashboard analytics
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+8.Machine Learning Chatbot:
+Tools: Jupyter Notebook, Scikit-learn (KNN, Decision Tree), Flask API
+Key Principles: Doctor recommendation by city and specialization, model training and deployment
+Methods: Training ML models, evaluating accuracy, serving predictions through Flask API, integrating chatbot UI
